@@ -13,7 +13,8 @@ namespace rateApp
         {
             InitializeComponent();
 
-            MainPage = new rateApp.MainPage();
+            MainPage = new NavigationPage(new MainPage());
+            //MainPage = new rateApp.MainPage();
         }
 
         protected override void OnStart()

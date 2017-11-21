@@ -45,6 +45,7 @@ namespace rateApp
             users.Add(new User { DisplayName = "New Item" });
         }
 
+        /*
         private void btnTest_Clicked(object sender, EventArgs e)
         {
             this.btnTest.Image = "iconmonstr-amazon-3-240.png";
@@ -54,5 +55,6 @@ namespace rateApp
         {
             this.btnTest.Image = "iconmonstr-headphones-16-240.png";
         }
+        */
     }
 }

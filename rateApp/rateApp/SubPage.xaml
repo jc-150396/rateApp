@@ -60,15 +60,9 @@
                 HorizontalOptions="CenterAndExpand" />
 
 
-            <Button x:Name="btnTest" Clicked="btnTest_Clicked" Image="iconmonstr-headphones-16-240.png" >
-                <Button  Clicked="btnTest2_Clicked" Image="iconmonstr-amazon-3-240.png" ></Button>
-            </Button>
+            
 
-            <Image WidthRequest="30"  HeightRequest="30" >
-                <Image.Source>
-                    <FileImageSource File="iconmonstr-headphones-16-240.png"/>
-                </Image.Source>
-            </Image>
+            
             
         </StackLayout>
     </ContentPage.Content>
