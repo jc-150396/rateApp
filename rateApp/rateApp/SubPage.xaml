@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rateApp.SubPage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <ScrollView x:Name="ScrollView1" Orientation="Vertical">
+
+                <Label Text="Book1" 
+                    HorizontalOptions="CenterAndExpand" />
+
+                <StackLayout Orientation="Vertical"
+                     VerticalOptions="StartAndExpand">
+
+                    <Image>
+                        <Image.Source>
+                            <FileImageSource File="1505841736997.png" />
+                        </Image.Source>
+                    </Image>
+
+
+
+                    <Switch HorizontalOptions="End" VerticalOptions="Center"/>
+
+                    <Label Text="基礎データ"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
+
+                    <Switch></Switch>
+
+                    <Label Text="{Binding Path=labelText}"></Label>
+
+
+                </StackLayout>
+
+            </ScrollView>
+
+
+
+
+            <Button Text="New Item" Clicked="OnNewItem" />
+
+            <ListView VerticalOptions="Center"  x:Name="UserListView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding DisplayName}"   />
+
+                        <!--<DataTemplate.Bindings x:Uid  ="{Binding FriendlyName}" />-->
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+
+            <Label Text="基礎データ"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+
+            <Button x:Name="btnTest" Clicked="btnTest_Clicked" Image="iconmonstr-headphones-16-240.png" >
+                <Button  Clicked="btnTest2_Clicked" Image="iconmonstr-amazon-3-240.png" ></Button>
+            </Button>
+
+            <Image WidthRequest="30"  HeightRequest="30" >
+                <Image.Source>
+                    <FileImageSource File="iconmonstr-headphones-16-240.png"/>
+                </Image.Source>
+            </Image>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

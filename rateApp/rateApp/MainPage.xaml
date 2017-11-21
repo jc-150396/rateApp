@@ -6,19 +6,31 @@
     <ContentPage.Content>
         <StackLayout>
             
-            
-            
-            
-            <Entry Text="Welcome to Xamarin.Forms!"
+            <Button Text="詳細ページへ"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"
-                 />
-            
-            
-            
-            
-            
-            
+                HorizontalOptions="CenterAndExpand" 
+                Clicked="Button_Clicked"
+                    />
+
+            <Button Text="TextSampleページへ"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                Clicked="Button_Clicked_1"
+                    />
+
+            <Button Text="Bindingページへ"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                Clicked="Button_Clicked_2"
+                    />
+
+
+            <Button Text="ISBNページへ"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                Clicked="Button_Clicked_3"
+                    />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
