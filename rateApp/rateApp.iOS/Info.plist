@@ -25,7 +25,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>jp.jc21.rateApp</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.2</string>
 	<key>CFBundleIconFiles</key>
 	<array>
 		<string>Icon-60@2x</string>
@@ -50,5 +50,7 @@
 	<string>10.0</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.2</string>
+	<key>UIRequiresFullScreen</key>
+	<true/>
 </dict>
 </plist>
