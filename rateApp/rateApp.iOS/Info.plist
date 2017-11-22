@@ -48,5 +48,7 @@
 	<string>LaunchScreen</string>
 	<key>MinimumOSVersion</key>
 	<string>10.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2</string>
 </dict>
 </plist>
